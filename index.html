@@ -1,328 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <style>
-        body {
-            max-width: 1000px;
-            margin: auto;
-            padding: 2em;
-        }
-    </style>
-
-
     <head>
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Pain Agency</title>
 
-        <link rel="icon" type="image/png" href="./pain.png"/>
+        <meta name="description" content="The Pain Agency: personal website of Joseph Winkie hosting various free and open source services!" />
+        <meta
+            name="keywords"
+            content="joseph winkie, pain agency, matrix server hosting, xmpp server hosting, tech enthusiast, digital freedom, communication services, web development, personal hosting, tech community, open by request servers, media upload limit, dendrite matrix, technology abuse, plain html, evelyn beatrice hall, voltaire, legal terms hosting, contact platforms tech, innovative tech projects, server configuration, free speech hosting, simple web design, tech support contact, scambaiting, personal tech blog"
+        />
+        <meta
+            name="robots"
+            content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+        />
+        <meta property="og:type" content="website" />
 
+        <meta name="license" content="AGPL-3.0-or-later" />
+
+        <meta name="color-scheme" content="dark" />
+        <meta name="theme-color" content="black" />
+
+        <link rel="icon" type="image/png" href="/pain.png" />
+        <link rel="stylesheet" href="/css/base.css" />
     </head>
 
-
-
-    <body style="background-color: black; color:chartreuse; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-
+    <body>
         <h1>The <i>Pain</i> Agency</h1>
 
-        <h3>🤨 <i>Who?</i></h3>
+        <h3 id="who">🤨 <i>Who?</i></h3>
 
         <p>
-
             Hi, I'm Joseph Winkie aka jjj333_p, however you can call me Joe. I am an 18 year old college student based in the usa,
             and am forever trapped in an abusive relationship with technology. I host a [Matrix] and XMPP homeserver using this domain
-            (I'm <a style="color: green;" href="https://matrix.to/#/@jjj333:pain.agency">@jjj333:pain.agency</a> and
-            <a style="color: green;" href="xmpp:jjj333@pain.agency">xmpp:jjj333@pain.agency</a>).
+            (I'm <a href="https://matrix.to/#/@jjj333:pain.agency">@jjj333:pain.agency</a> and
+            <a href="xmpp:jjj333@pain.agency">xmpp:jjj333@pain.agency</a>).
             I'm sure its obvious have no idea what I am doing with web dev, so heres to hoping that people still like plain ass html pages! 🎉
-
-            <br><br>
-
-            "I disapprove of what you say, but I will defend to the death your right to say it."
-            <br> - Evelyn Beatrice Hall in summary of Voltaire's ideas
-
-            <br><br>
-
         </p>
 
-        <h3>Matrix:</h3>
+        <p>
+            "I disapprove of what you say, but I will defend to the death your right to say it."
+            <br />
+            - Evelyn Beatrice Hall in summary of Voltaire's ideas
+        <p>
+
+        <h3 id="matrix">Matrix:</h3>
 
         <p>
             I host a Dendrite Matrix server! Currently My server is "open by request", which means that you can not open a matrix client and register
-            for an account, however if you simply message me I will likely grant you an account. Before reaching out to request an account, please
-            make sure to familiarize yourself with <a style="color: green;" href="https://pain.agency/legal">pain.agency/legal</a> to see what
+            for an account, however if you simply message me I will likely grant you an account.Before reaching out to request an account, please
+            make sure to familiarize yourself with <a href="/legal">pain.agency/legal</a> to see what
             you are agreeing to abide by when you utilize or register for my services. I am currently one of the first homeservers to go any
             form of public while running Dendrite. My media upload limit is currently set to 500000000 bytes, or something around 500mb,
             however this may be changed sooner or later. I also expect to have really short media retention periods in order to sustain
             such a large upload limit. You can find the dendrite configuration I use
-            <a style="color: green;" href="https://github.com/jjj333-p/dendrite.yaml/blob/main/dendrite.yaml">here</a>.
-
-            <br><br>
+            <a href="https://github.com/jjj333-p/dendrite.yaml/blob/main/dendrite.yaml">here</a>.
         </p>
 
-        <h3>XMPP:</h3>
+        <h3 id="xmpp">XMPP:</h3>
 
         <p>
             Its like Matrix but older and actually works 🙃. Currently my server is "open by request", simply message me I will likely grant you an account.
-            Before reaching out to request an account, please make sure to familiarize yourself with <a style="color: green;" href="https://pain.agency/legal">pain.agency/legal</a> to see what
+            Before reaching out to request an account, please make sure to familiarize yourself with <a href="/legal">pain.agency/legal</a> to see what
             you are agreeing to abide by when you utilize or register for my services.
-            <br><br>
         </p>
 
-        <h3>📲 Contact:</h3>
+        <h3 id="contact">📲 Contact:</h3>
 
         <p>
-
             These are the different platforms I can be contacted on, in order of preference. If you dont find an account on this list, it isnt me,
             and even on the off chance that it is me I won't expect you to believe or try to convince you that it is me.
-
         </p>
 
         <ul>
-
             <li>
-
-                Signal: <a style="color: green;" href="https://signal.me/#eu/r55YrtN-TA9jTN90X9S0uxwAG7h1gi9m6qnwFQfyy4klBJaNwMZMI6wNBqUHsbWq">@jjj333_p.69</a>
-                <br><img style="width: 200px;height: auto;;" src="./signal-qr.jpeg"/>
-
+                Signal: <a href="https://signal.me/#eu/r55YrtN-TA9jTN90X9S0uxwAG7h1gi9m6qnwFQfyy4klBJaNwMZMI6wNBqUHsbWq">@jjj333_p.69</a>
+                <br />
+                <img style="width:200px;height:auto" src="/signal-qr.jpeg" />
             </li>
 
-            <br>
-
             <li>
-
-                Telegram: <a style="color: green;" href="https://t.me/jjj333_p_1325">@jjj333_p_1325</a>
-
+                Telegram: <a href="https://t.me/jjj333_p_1325">@jjj333_p_1325</a>
             </li>
 
-            <br>
-
             <li>
-
                 Matrix:
 
                 <ul>
-
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333:pain.agency">@jjj333:pain.agency</a><br>
-                        (my main matrix account)
-
+                        <a href="https://matrix.to/#/@jjj333:pain.agency">@jjj333:pain.agency</a><br> (my main matrix account)
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:envs.net">@jjj333_p_1325:envs.net</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:envs.net">@jjj333_p_1325:envs.net</a><br>
                         (my primary alt, I don't daily drive this account, however I pop in from time to time and it is what I
                         use if my homeserver is ever having issues)<br>
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:matrix.org">@jjj333_p_1325:matrix.org</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:matrix.org">@jjj333_p_1325:matrix.org</a><br>
                         (my first matrix account, I still have many things tethered to this account, however I don't really ever check in anymore)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325_alt:kde.org">@jjj333_p_1325_alt:kde.org</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325_alt:kde.org">@jjj333_p_1325_alt:kde.org</a><br>
                         (my first alt, dont have a lot on it)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:tchncs.de">@jjj333_p_1325:tchncs.de</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:tchncs.de">@jjj333_p_1325:tchncs.de</a><br>
                         (alt I made to debug some federation issues, unsure how much I'll actually log in)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:nitro.chat">@jjj333_p_1325:nitro.chat</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:nitro.chat">@jjj333_p_1325:nitro.chat</a><br>
                         (another alt in a desparate attempt to try to mitigate some federation issues)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:forgedtheir.phd">@jjj333_p_1325:forgedtheir.phd</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:forgedtheir.phd">@jjj333_p_1325:forgedtheir.phd</a><br>
                         (fellow dendrite instance for more debugging)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:4d2.org">@jjj333_p_1325:4d2.org</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:4d2.org">@jjj333_p_1325:4d2.org</a><br>
                         (spare alt without much purpose)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:catgirl.cloud">@jjj333_p_1325:catgirl.cloud</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:catgirl.cloud">@jjj333_p_1325:catgirl.cloud</a><br>
                         (spare alt without much purpose)
-
                     </li>
 
                     <li>
-
-                        <a style="color: green;" href="https://matrix.to/#/@jjj333_p_1325:techsaviours.org">@jjj333_p_1325:techsaviours.org</a><br>
+                        <a href="https://matrix.to/#/@jjj333_p_1325:techsaviours.org">@jjj333_p_1325:techsaviours.org</a><br>
                         (this is an alt I don't currently have access to, or much on, however if you see it floating around, it is me.)
-
                     </li>
-
                 </ul>
-
             </li>
 
-            <br>
-
             <li>
-
                 +1 (740) 481 1253
 
                 <ul>
-
-                    <li><a style="color: green;" href="https://wa.me/+17404811253">Whatsapp</a></li>
-
+                    <li><a href="https://wa.me/+17404811253">Whatsapp</a></li>
                     <li>sms</li>
-
                 </ul>
-
             </li>
 
-            <br>
-
             <li>
-
                 XMPP (pc only):
 
-                <ul><li>
-                    <a style="color: green;" href="xmpp:jjj333@pain.agency">jjj333@pain.agency</a><br>
-                    (my main xmpp account)
-                </li></ul>
-
+                <ul>
+                    <li>
+                        <a href="xmpp:jjj333@pain.agency">jjj333@pain.agency</a><br>
+                        (my main xmpp account)
+                    </li>
+                </ul>
             </li>
 
-            <br>
-
             <li>
-
-                Snapchat (🤢): <a style="color: green;" href="https://t.snapchat.com/nmgUTzne">@jjj333_p</a>
-                <br><img style="width:150px;height: auto;;" src="./signal-2023-07-22-203845.jpeg"/>
-
+                Snapchat (🤢): <a href="https://t.snapchat.com/nmgUTzne">@jjj333_p</a>
+                <br />
+                <img style="width:150px;height:auto" src="/signal-2023-07-22-203845.jpeg" />
             </li>
 
-            <br>
-
             <li>
-
                 Email/google chat: jjj333.p.1325@gmail.com
-                <br>
+                <br />
                 I dont really like using email, however this is a reliable way to contact me.
-
             </li>
 
-            <br>
-
             <li>
-
-                Fedi <a style="color: green;" href="https://ak.ari.lt/jjj333_p">@jjj333_p@ak.ari.lt</a>
-                <br>
+                Fedi <a href="https://ak.ari.lt/jjj333_p">@jjj333_p@ak.ari.lt</a>
+                <br />
                 I'm in here once and a while 🤷
-
             </li>
-
-            <br>
 
             <li>
-
-                <del>Twitter</del> &#x1D54F: <a style="color: green;" href="https://twitter.com/Jjj333P">@Jjj333P</a>
-                <br>
+                <del>Twitter</del> &#x1D54F;: <a href="https://twitter.com/Jjj333P">@Jjj333P</a>
+                <br />
                 I don't really check in on twitter these days but it is there I guess.
-
             </li>
-
         </ul>
 
-        <h3>⌨️ Code:</h3>
+        <h3 id="code">⌨️ Code:</h3>
 
         <p>
-
             I don't have much to write home about, however you can
-            <a style="color: green;" href="https://github.com/jjj333-p">check me out on github</a>
+            <a href="https://github.com/jjj333-p">check me out on github</a>
             and below are my few projects:
-
         </p>
 
         <ul>
-
-            <li><a style="color: green;" href="https://github.com/jjj333-p/spam-police">Scam catching bot</a></li>
-
-            <li><a style="color: green;" href="https://github.com/jjj333-p/cave-adventure">Cave adventure cli game</a></li>
-
-            <li><a style="color: green;" href="https://github.com/jjj333-p/pain.agency/">This website</a> (though you can also just right click > view source)</li>
-
+            <li><a href="https://github.com/jjj333-p/spam-police">Scam catching bot</a></li>
+            <li><a href="https://github.com/jjj333-p/cave-adventure">Cave adventure cli game</a></li>
+            <li><a href="https://github.com/jjj333-p/pain.agency/">This website</a> (though you can also just right click > view source)</li>
         </ul>
 
-        <br>
-
-        <h3>✍️ Writing:</h3>
+        <h3 id="writing">✍️ Writing:</h3>
 
         <p>
-            I really do be writing words on a page with meaning don't I. <a style="color: green;" href="https://medium.com/@joseph.f.winkie">https://medium.com/@joseph.f.winkie</a>
+            I really do be writing words on a page with meaning don't I.
+            <a href="https://medium.com/@joseph.f.winkie">https://medium.com/@joseph.f.winkie</a>
         </p>
 
-        <h3>🧌 Scambaiting: <i>(pssst join  <a style="color: green;" href="https://matrix.to/#/#scambait:matrix.org">#scambait:matrix.org</a>)</i></h3>
+        <h3 id="scambaiting">🧌 Scambaiting: <i>(pssst join  <a href="https://matrix.to/#/#scambait:matrix.org">#scambait:matrix.org</a>)</i></h3>
 
         <p>Please give the following contact info to scammers and trolls, its very funny.</p>
 
         <ul>
-
-            <li>+1 (740)-481-1253 - (sms, Whatsapp, <a style="color: green;" href="https://t.me/+17404811253">Telegram</a>, signal) (preferred)</li>
-
+            <li>+1 (740)-481-1253 - (sms, Whatsapp, <a href="https://t.me/+17404811253">Telegram</a>, signal) (preferred)</li>
             <li>+1 (747)-285-6792 - (sms, Whatsapp)</li>
-
             <li>+1 (747)-226-4694 - (Whatsapp only) (preferred)</li>
 
             <li>The ⚠️snapchat, telegram, and matrix⚠️ listed above in the contact section</li>
-
-            <li>Telegram: <a style="color: green;" href="https://t.me/hughjanustn">@hughjanustn</a></li>
+            <li>Telegram: <a href="https://t.me/hughjanustn">@hughjanustn</a></li>
 
             <li><del>hughjanustn@gmail.com</del> (deleted by google for some tos violation I had no idea of???) </li>
-
             <li>hj4926278@gmail.com</li>
-
             <li>linastacy885@gmail.com</li>
-
             <li>fapplewatch@yahoo.com</li>
-
             <li>rtfm5tzyjc@privaterelay.appleid.com</li>
-
         </ul>
 
-        <br>
-
-        <h3>💸 Support:</h3>
+        <h3 id="support">💸 Support:</h3>
 
         <p>
             I never want to be one to ask for money, however I wont object to it being thrown at me.
-            <br>
-            <a style="color: green;" href="https://paypal.me/sfxjoe">https://paypal.me/sfxjoe</a>
+            <br />
+            <a href="https://paypal.me/sfxjoe">https://paypal.me/sfxjoe</a>
         </p>
 
-        <br>
+        <h3 id="bridges"><del>🌉 Bridges:</del> (not available yet)</h3>
 
-        <h3><del>🌉 Bridges:</del> (not available yet)</h3>
+        <p>
+            <i>No bridges available yet.</i>
+        </p>
 
-
-        <br><br><br>
-
-        <img style="width:650px;height: auto;;" src="./ass-pain.jpg"/>
-
-        <br><br><br>
-
+        <img style="width:650px;height:auto" src="/ass-pain.jpg" />
     </body>
-
 </html>
