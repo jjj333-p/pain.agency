@@ -1,0 +1,28 @@
+{
+  "name": "pain.agency-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjj333-p/pain.agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjj333-p/pain.agency/issues"
+  },
+  "homepage": "https://github.com/jjj333-p/pain.agency#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^7.0.0"
+  }
+}

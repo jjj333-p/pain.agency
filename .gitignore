@@ -1,1 +1,2 @@
-./filehost
+.cache
+node_modules
