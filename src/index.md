@@ -25,6 +25,6 @@ I host a [Stalwart](https://stalw.art/) server, though I kinda suck at maintaini
 
 Iʻm developing an XMPP Matrix bridge called [Koishi](https://github.com/jjj333-p/koishi). Currently rooms have to be manually added to the configuration to bridge them, reach out and Iʻll be happy to assist. 
 
-### Coming Soon: Pastebin service
+### [Pinnwand Pastebin service](https://pussybin.com)
 
-I plan to soon host an instance of [Pinnwand](https://github.com/supakeen/pinnwand), stay tuned. 
+I host a publicly available instance of [Pinnwand](https://github.com/supakeen/pinnwand), feel free to use it for your pastebin needs!
